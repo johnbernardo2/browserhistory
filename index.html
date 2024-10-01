@@ -4,66 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A history of browsers</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link href= "https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans:wght@400&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans:wght@400&display=swap" rel="stylesheet"/>
 </head>
 
 <body>
     <h1>A history of browsers</h1>
 
-    <!-- Table of Contents Section -->
-    <section id="table-of-contents">
-        <h2>Table of Contents</h2>
-        <ul>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul id="navigation-bar">
             <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#ie-history">A brief history of IE</a></li>
-            <li><a href="#firefox-history">A brief history of Firefox</a></li>
-            <li><a href="#chrome-history">A brief history of Chrome</a></li>
+            <li><a href="#ie-history">Internet Explorer</a></li>
+            <li><a href="#firefox-history">Firefox</a></li>
+            <li><a href="#chrome-history">Chrome</a></li>
         </ul>
-    </section>
+    </nav>
 
     <!-- Introduction Section -->
     <section id="introduction">
         <h2>Introduction</h2>
-        <p>Web browsers have evolved significantly since the early days of the internet. The development of modern browsers
-            has led to faster and more secure browsing experiences for users. To understand where we are today, it's
-            important to understand the history of major browsers like Internet Explorer, Firefox, and Chrome. For more
-            information on web browsers, you can visit <a href="https://en.wikipedia.org/wiki/Web_browser">Wikipedia</a>.
+        <p>The first web browser was invented in 1990 by Tim Berners-Lee. It was called WorldWideWeb (no spaces) and was later renamed Nexus. In 1993, Marc Andreesen created a browser that was easy to use and install with the release of Mosaic (later Netscape), "the world's first popular browser", which made the World Wide Web system easy to use and more accessible to the average person. Andreesen's browser sparked the internet boom of the 1990s. These are the two major milestones in the history of the Web.
+            <br> <br> The wars put the Web in the hands of millions of ordinary PC users, but showed how commercialization of the Web could stymie standards efforts. Both Microsoft and Netscape liberally incorporated proprietary extensions to HTML in their products, and tried to gain an edge by product differentiation, leading to the acceptance of the Cascading Style Sheets proposed by Hakon Wium Lie over Netscape's JavaScript Style Sheets (JSSS) by W3C.
+             <a href="https://en.wikipedia.org/wiki/Web_browser">Wikipedia</a>.
         </p>
     </section>
 
-    <!-- A Brief History of IE Section -->
-    <section id="ie-history">
-        <h2>A brief history of IE</h2>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Internet_Explorer_10%2B11_logo.svg" alt="Internet Explorer Logo" width="100">
-        <p>Internet Explorer, developed by Microsoft, was one of the earliest and most popular web browsers during the late
-            1990s and early 2000s. It was initially released as part of the add-on package Plus! for Windows 95 in 1995.
-            Over the years, Internet Explorer has gone through numerous versions, facing competition from other browsers.
-            For more on Microsoft and its history, visit <a href="https://www.microsoft.com">Microsoft's official website</a>.
-        </p>
-    </section>
+    <!-- Container for Browser Sections -->
+    <div id="browser-sections">
+        <!-- A Brief History of IE Section -->
+        <section id="ie-history">
+            <h2>A brief history of IE</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Internet_Explorer_10%2B11_logo.svg" alt="Internet Explorer Logo" width="100">
+            <p>The first Internet Explorer was derived from Spyglass Mosaic. The original Mosaic came from NCSA, but since NCSA was a public entity it relied on Spyglass as its commercial licensing partner. Spyglass in turn delivered two versions of the Mosaic browser to Microsoft, one wholly based on the NCSA source code, and another engineered from scratch but conceptually modeled on the NCSA browser. Internet Explorer was initially built using the Spyglass, not the NCSA source code. The license to Microsoft provided Spyglass (and thus NCSA) with a quarterly fee plus a percentage of Microsoft's revenues for the software.
+                <br> <br> In March 2009 Version 8.0 was released, with the first public beta having been released on March 5, 2008. IE8 offered better support for web standards than previous versions, with plans for improved support for RSS, CSS, and Ajax, as well as full compliance for Cascading Style Sheets 2.1. It was also the first version to successfully pass the Acid2 test. In addition, Internet Explorer 8 included new features such as WebSlices and an improved phishing filter.
+                 <a href="https://www.microsoft.com">Microsoft's official website</a>.
+            </p>
+        </section>
 
-    <!-- A Brief History of Firefox Section -->
-    <section id="firefox-history">
-        <h2>A brief history of Firefox</h2>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Mozilla_Firefox_logo_2013.png" alt="Firefox Logo" width="100">
-        <p>Firefox, developed by Mozilla, was initially released in 2002 under the name "Phoenix" before becoming "Firefox"
-            in 2004. Firefox quickly gained popularity for its speed and focus on privacy. Mozilla, the non-profit behind
-            Firefox, remains committed to an open and accessible internet. To learn more about Mozilla, check out
-            <a href="https://www.mozilla.org">Mozilla's official site</a>.
-        </p>
-    </section>
+         <!-- A Brief History of Chrome Section -->
+         <section id="chrome-history">
+            <h2>A brief history of Chrome</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_%282011%29.png" alt="Chrome Logo" width="100">
+            <p>Google's Eric Schmidt opposed the development of an independent web browser for six years. He stated that "at the time, Google was a small company," and he did not want to go through "bruising browser wars." After co-founders Sergey Brin and Larry Page hired several Mozilla Firefox developers and built a demonstration of Chrome, however, Schmidt admitted that "It was so good that it essentially forced me to change my mind."
+                <br> <br>
+                In December 2010 Google announced that to make it easier for businesses to use Chrome they would provide an official Chrome MSI package. For business use it is helpful to have full-fledged MSI packages that can be customized via transform files (.mst) - but the MSI provided with Chrome is only a very limited MSI wrapper fitted around the normal installer, and many businesses find that this arrangement does not meet their needs.
+                 <a href="https://www.google.com/chrome">Google Chrome's official page</a>.
+            </p>
+        </section>
 
-    <!-- A Brief History of Chrome Section -->
-    <section id="chrome-history">
-        <h2>A brief history of Chrome</h2>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_%282011%29.png" alt="Chrome Logo" width="100">
-        <p>Google Chrome was first released in 2008 and quickly became one of the most popular web browsers in the world.
-            Chrome's performance, minimalist design, and integration with Google's services have been key to its success.
-            To learn more about Chrome, visit <a href="https://www.google.com/chrome">Google Chrome's official page</a>.
-        </p>
-    </section>
+        <!-- A Brief History of Firefox Section -->
+        <section id="firefox-history">
+            <h2>A brief history of Firefox</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Mozilla_Firefox_logo_2013.png" alt="Firefox Logo" width="100">
+            <p>The project which became Firefox started as an experimental branch of the Mozilla Suite called m/b (or mozilla/browser). After it had been sufficiently developed, binaries for public testing appeared in September 2002 under the name Phoenix.
+                <br> <br>
+                Firefox 23 was released on August 6, 2013. It includes an updated Firefox logo, mixed content blocking enabled by default to defend against man-in-the-middle attacks, implementation of the range form control attribute in HTML5, dropping support for the blink HTML element as well as text-decoration:blink CSS element, the restriction to have to "switch to a different search provider across the entire browser," and a global browser console, a new network monitor among other things. 
+                
+                </a>.
+            </p>
+        </section>
 
+    </div>
 </body>
 
 </html>

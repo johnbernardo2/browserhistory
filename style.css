@@ -1,3 +1,4 @@
+/* General Styling */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
@@ -14,4 +15,38 @@ body {
 
 img {
     vertical-align: middle;
+}
+
+/* Navigation Bar Styling */
+#navigation-bar {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    justify-content: center;
+}
+
+#navigation-bar li {
+    display: inline;
+}
+
+#navigation-bar a {
+    text-decoration: underline;
+    color: blue; 
+}
+
+#navigation-bar a:hover {
+    color: darkred;
+}
+
+/* Browser Sections Styling */
+#browser-sections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#browser-sections section {
+    width: 300px;
 }
