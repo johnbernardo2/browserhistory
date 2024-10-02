@@ -15,38 +15,15 @@ body {
 
 img {
     vertical-align: middle;
+    margin-right: 10px;
 }
 
-/* Navigation Bar Styling */
-#navigation-bar {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 15px;
-    padding: 10px;
-    justify-content: center;
-}
-
-#navigation-bar li {
-    display: inline;
-}
-
-#navigation-bar a {
+/* Link Styling */
+a {
     text-decoration: underline;
-    color: blue; 
+    color: blue;
 }
 
-#navigation-bar a:hover {
+a:hover {
     color: darkred;
-}
-
-/* Browser Sections Styling */
-#browser-sections {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-#browser-sections section {
-    width: 300px;
 }
