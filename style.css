@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
     font-family: 'Open Sans', sans-serif;
     color: darkblue;
-    background-color: ivory;
+    background-color: white;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 50px;
@@ -49,4 +49,8 @@ img {
 
 #browser-sections section {
     width: 300px;
+}
+
+a.nav-link {
+    color: white !important;
 }
